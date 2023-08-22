@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kanit:wght@500&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kanit:wght@500&family=Poppins:wght@100&family=Roboto:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: none;
+  
+
+}
+
+::-webkit-scrollbar{
+    display: none;
+    overflow: hidden;
+
+}
+
+.main {
+    height: 60px;
+    background-color: rgb(240, 242, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+.main a{
+    text-decoration: none;
+    color: rgb(218, 52, 52);
+}
+
+nav,
+ul,
+li {
+    list-style-type: none;
+    display: flex;
+    gap: 80px;
+}
+
+.first-page {
+    width: 100%;
+    height: 80vh;
+    /* background-color: #dd4545; */
+   
+}
+
+.first-page h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image1 {
+    margin-right: 30px;
+    margin-top: 0px;
+    float: right;
+    height: 87.9vh;
+    width:700px;
+    justify-content: end;
+    margin-left: 50px;
+
+}
+
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+.card-text{
+
+    text-align: center;
+    
+}
+
+.card img{
+    height: 300px;
+}
+ p{
+    margin-left:20px;
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.dabba{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 15px;
+    justify-content: center;
+
+}
+
+
+.carousel-inner{
+    width: 100%; 
+    max-height: 150vh !important;
+     overflow: hidden;
+}
+
+.heading{
+    width: 70%;
+margin-top: 30px;
+margin-left: 14%;
+
+font-family: 'Courier New', Courier, monospace
+
+}
+
+
+.progress{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    
+}
+.progress-bar{
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.footer{
+
+    width: 100%;
+    height: 200px;
+    background-color:rgba(5, 40, 121, 0.482);
+  flex-direction: row;
+  display: flex;
+  text-align: center;
+  }
+  .h3{
+    margin-left: 41%;
+    position: absolute;
+    margin-top: 20px;
+  
+  }
+
+ .footer p{
+    margin-top: 50px;
+    padding: 30px;
+    color: white;
+    margin-right: 28px;
+    font-size: medium;
+ }
+
+
+
